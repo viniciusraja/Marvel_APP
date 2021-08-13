@@ -1,4 +1,5 @@
-const colors={
-    grey:"#ddd"
-}
-export default colors
+const colors = {
+  grey: '#ddd',
+  backGround: '#FFF',
+};
+export default colors;
