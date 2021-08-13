@@ -7,8 +7,13 @@
  */
 
 import React from 'react';
+import {SafeAreaView} from 'react-native';
 import Carousel from './src/components/Carousel';
 
-const App = () => <Carousel />;
+const App = () => (
+  <SafeAreaView style={{flex: 1}}>
+    <Carousel />
+  </SafeAreaView>
+);
 
 export default App;
